@@ -5,6 +5,7 @@ body {
   opacity: 1 !important;
 }
 
+
 @keyframes pulse-dot {
   0% {
     opacity: 1;
