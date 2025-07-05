@@ -2,8 +2,10 @@ import React, { useState } from "react";
 import empleadosData from "./empleados.json";
 
 const grupos = {
+  "Sin Rango": ["Sin Rango"],
   Traffickers: ["Trafficker Fase Inicial", "Trafficker Fases Finales"],
   "Jefes de Equipo": [
+    "Aspirante Jefe de Equipo",
     "Jefe de Equipo Junior",
     "Jefe de Equipo Senior",
     "Jefe de Equipo Especialista",
@@ -17,6 +19,7 @@ const grupos = {
 const colores = {
   "Trafficker Fase Inicial": "#e0f2fe",
   "Trafficker Fases Finales": "#bae6fd",
+  "Aspirante Jefe de Equipo":"#ecfdf5",
   "Jefe de Equipo Junior": "#d1fae5",
   "Jefe de Equipo Senior": "#a7f3d0",
   "Jefe de Equipo Especialista": "#6ee7b7",
@@ -26,6 +29,7 @@ const colores = {
   "Partner Ascendente": "#fde68a",
   "Partner Ejecutivo": "#fcd34d",
   "Partner Alpha": "#fbbf24",
+  "Sin Rango": "#e5e7eb",
 };
 
 const Jerarquia = () => {
@@ -34,8 +38,16 @@ const Jerarquia = () => {
     Object.values(grupos)
       .flat()
       .forEach((nivel) => {
+        const empleadosNivel = empleadosData.filter((emp) => emp.nivel === nivel);
         inicial[nivel] = empleadosData.filter((emp) => emp.nivel === nivel);
       });
+
+    Object.values(grupos).flat().forEach((nivel) => {
+      if (!inicial[nivel]) inicial[nivel] = [];
+    });
+
+
+
     return inicial;
   });
 

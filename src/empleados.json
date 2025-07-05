@@ -3,16 +3,25 @@
     "nombre": "Miguel Correa",
     "rol": "Jefe de Equipo Junior",
     "nivel": "Jefe de Equipo Junior",
-    "tiempo": "3 años",
+    "tiempo": "2 años",
     "proyectos": "8 proyectos",
     "kpi": "95%",
     "ultimoAscenso": "Marzo 2024"
   },
   {
-    "nombre": "Daniela Lopez y Valentina Parra",
+    "nombre": "Valentina Parra",
     "rol": "Jefe de Equipo Junior",
     "nivel": "Jefe de Equipo Junior",
-    "tiempo": "2 años",
+    "tiempo": "1 año",
+    "proyectos": "8 proyectos",
+    "kpi": "95%",
+    "ultimoAscenso": "Marzo 2024"
+  },
+    {
+    "nombre": "Daniela Lopez",
+    "rol": "Jefe de Equipo Junior",
+    "nivel": "Jefe de Equipo Junior",
+    "tiempo": "1 año",
     "proyectos": "8 proyectos",
     "kpi": "95%",
     "ultimoAscenso": "Marzo 2024"
@@ -21,25 +30,25 @@
     "nombre": "Juan Jose Sierra",
     "rol": "Trafficker Fases Finales",
     "nivel": "Trafficker Fases Finales",
-    "tiempo": "2 años",
+    "tiempo": "5 meses",
     "proyectos": "8 proyectos",
     "kpi": "95%",
     "ultimoAscenso": "Marzo 2024"
   },
   {
     "nombre": "Nicolas Trujillo",
-    "rol": "Jefe de Equipo Junior",
-    "nivel": "Jefe de Equipo Junior",
-    "tiempo": "2 años",
+    "rol": "Aspirante Jefe de Equipo",
+    "nivel": "Aspirante Jefe de Equipo",
+    "tiempo": "1 año",
     "proyectos": "8 proyectos",
     "kpi": "95%",
     "ultimoAscenso": "Marzo 2024"
   },
   {
     "nombre": "Daniel Zambrano",
-    "rol": "Trafficker Fases Finales",
-    "nivel": "Trafficker Fases Finales",
-    "tiempo": "2 años",
+    "rol": "Aspirante Jefe de Equipo",
+    "nivel": "Aspirante Jefe de Equipo",
+    "tiempo": "11 meses",
     "proyectos": "8 proyectos",
     "kpi": "95%",
     "ultimoAscenso": "Marzo 2024"
@@ -48,7 +57,7 @@
     "nombre": "Camilo Quebrada",
     "rol": "Trafficker Fases Finales",
     "nivel": "Trafficker Fases Finales",
-    "tiempo": "10 meses",
+    "tiempo": "11 meses",
     "proyectos": "8 proyectos",
     "kpi": "95%",
     "ultimoAscenso": "Marzo 2024"
@@ -72,28 +81,163 @@
     "ultimoAscenso": "Marzo 2024"
   },
   {
-    "nombre": "Ana María",
-    "rol": "Jefe de Equipo Junior",
-    "nivel": "Jefe de Equipo Junior",
-    "tiempo": "2 años",
-    "proyectos": "8 proyectos",
-    "kpi": "95%",
-    "ultimoAscenso": "Marzo 2024"
-  },
-  {
-    "nombre": "Camilo Ríos",
-    "rol": "Trafficker Fases Finales",
-    "nivel": "Trafficker Fases Finales",
-    "tiempo": "2 años",
-    "proyectos": "8 proyectos",
-    "kpi": "95%",
-    "ultimoAscenso": "Marzo 2024"
-  },
-  {
-    "nombre": "Valentina Ruiz",
+    "nombre": "Kristhian Yara",
     "rol": "Trafficker Fase Inicial",
     "nivel": "Trafficker Fase Inicial",
+    "tiempo": "2 meses",
+    "proyectos": "8 proyectos",
+    "kpi": "95%",
+    "ultimoAscenso": "Marzo 2024"
+  },
+  {
+    "nombre": "Nathalia Orozco",
+    "rol": "Sin Rango",
+    "nivel": "Sin Rango",
+    "tiempo": "3 años",
+    "proyectos": "8 proyectos",
+    "kpi": "95%",
+    "ultimoAscenso": "Marzo 2024"
+  },
+  {
+    "nombre": "Mariana Guzman",
+    "rol": "Jefe de Equipo Junior",
+    "nivel": "Jefe de Equipo Junior",
+    "tiempo": "7 años",
+    "proyectos": "8 proyectos",
+    "kpi": "95%",
+    "ultimoAscenso": "Marzo 2024"
+  },
+  {
+    "nombre": "Santiago Ardila",
+    "rol": "Trafficker Fases Finales",
+    "nivel": "Trafficker Fases Finales",
+    "tiempo": "1 año",
+    "proyectos": "8 proyectos",
+    "kpi": "95%",
+    "ultimoAscenso": "Marzo 2024"
+  },
+    {
+    "nombre": "Juan Arias",
+    "rol": "Aspirante Jefe de Equipo",
+    "nivel": "Aspirante Jefe de Equipo",
+    "tiempo": "1 año",
+    "proyectos": "8 proyectos",
+    "kpi": "95%",
+    "ultimoAscenso": "Marzo 2024"
+  },
+    {
+    "nombre": "Daniela Osorio",
+    "rol": "Jefe de Equipo Junior",
+    "nivel": "Jefe de Equipo Junior",
+    "tiempo": "3 años",
+    "proyectos": "8 proyectos",
+    "kpi": "95%",
+    "ultimoAscenso": "Marzo 2024"
+  },
+    {
+    "nombre": "Stiven Bedoya",
+    "rol": "Sin Rango",
+    "nivel": "Sin Rango",
+    "tiempo": "1 año",
+    "proyectos": "8 proyectos",
+    "kpi": "95%",
+    "ultimoAscenso": "Marzo 2024"
+  },
+    {
+    "nombre": "Brandom Varela",
+    "rol": "Trafficker Fases Finales",
+    "nivel": "Trafficker Fases Finales",
+    "tiempo": "1 año",
+    "proyectos": "8 proyectos",
+    "kpi": "95%",
+    "ultimoAscenso": "Marzo 2024"
+  },
+    {
+    "nombre": "David Castañeda",
+    "rol": "Sin Rango",
+    "nivel": "Sin Rango",
     "tiempo": "2 años",
+    "proyectos": "8 proyectos",
+    "kpi": "95%",
+    "ultimoAscenso": "Marzo 2024"
+  },
+    {
+    "nombre": "Diego Infante",
+    "rol": "Aspirante Jefe de Equipo",
+    "nivel": "Aspirante Jefe de Equipo",
+    "tiempo": "2 años",
+    "proyectos": "8 proyectos",
+    "kpi": "95%",
+    "ultimoAscenso": "Marzo 2024"
+  },
+    {
+    "nombre": "Andres Sanchez",
+    "rol": "Aspirante Jefe de Equipo",
+    "nivel": "Aspirante Jefe de Equipo",
+    "tiempo": "1 año",
+    "proyectos": "8 proyectos",
+    "kpi": "95%",
+    "ultimoAscenso": "Marzo 2024"
+  },
+    {
+    "nombre": "Julian Fernandez",
+    "rol": "Aspirante Jefe de Equipo",
+    "nivel": "Aspirante Jefe de Equipo",
+    "tiempo": "1 año",
+    "proyectos": "8 proyectos",
+    "kpi": "95%",
+    "ultimoAscenso": "Marzo 2024"
+  },
+    {
+    "nombre": "Diego Perez",
+    "rol": "Sin Rango",
+    "nivel": "Sin Rango",
+    "tiempo": "1 año",
+    "proyectos": "8 proyectos",
+    "kpi": "95%",
+    "ultimoAscenso": "Marzo 2024"
+  },
+      {
+    "nombre": "Brandon Zapata",
+    "rol": "Trafficker Fase Inicial",
+    "nivel": "Trafficker Fase Inicial",
+    "tiempo": "1 mes",
+    "proyectos": "8 proyectos",
+    "kpi": "95%",
+    "ultimoAscenso": "Marzo 2024"
+  },
+      {
+    "nombre": "Karen Zapata",
+    "rol": "Jefe de Equipo Junior",
+    "nivel": "Jefe de Equipo Junior",
+    "tiempo": "4 años",
+    "proyectos": "8 proyectos",
+    "kpi": "95%",
+    "ultimoAscenso": "Marzo 2024"
+  },
+      {
+    "nombre": "Yilmer Dominguez",
+    "rol": "Aspirante Jefe de Equipo",
+    "nivel": "Aspirante Jefe de Equipo",
+    "tiempo": "11 meses",
+    "proyectos": "8 proyectos",
+    "kpi": "95%",
+    "ultimoAscenso": "Marzo 2024"
+  },
+        {
+    "nombre": "Estefania Bastardo",
+    "rol": "Sin Rango",
+    "nivel": "Sin Rango",
+    "tiempo": "10 meses",
+    "proyectos": "8 proyectos",
+    "kpi": "95%",
+    "ultimoAscenso": "Marzo 2024"
+  },
+        {
+    "nombre": "Valentina Giraldo",
+    "rol": "Trafficker Fase Inicial",
+    "nivel": "Trafficker Fase Inicial",
+    "tiempo": "1 mes",
     "proyectos": "8 proyectos",
     "kpi": "95%",
     "ultimoAscenso": "Marzo 2024"
