@@ -206,9 +206,6 @@ const [empleadosPorNivel] = useState(() => {
                           }}
                         >
                           ⏳ <b>Tiempo:</b> {emp.tiempo} <br />
-                          📂 <b>Proyectos:</b> {emp.proyectos} <br />
-                          📊 <b>KPI:</b> {emp.kpi} <br />
-                          🕑 <b>Últ. ascenso:</b> {emp.ultimoAscenso}
                         </div>
                       </div>
                     ))
