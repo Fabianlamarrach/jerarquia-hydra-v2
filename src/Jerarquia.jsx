@@ -3,7 +3,7 @@ import empleadosData from "./empleados.json";
 
 const grupos = {
   Traffickers: ["Trafficker Fase Inicial", "Trafficker Fases Finales"],
-  "Sin Rango": ["Sin Rango"],
+  "Traffickers Pro": ["Traffickers Pro"],
   "Jefes de Equipo": [
     "Aspirante Jefe de Equipo",
     "Jefe de Equipo Junior",
@@ -29,27 +29,24 @@ const colores = {
   "Partner Ascendente": "#fde68a",
   "Partner Ejecutivo": "#fcd34d",
   "Partner Alpha": "#fbbf24",
-  "Sin Rango": "#e5e7eb",
+  "Traffickers Pro": "#7dd3fc",
 };
 
 const Jerarquia = () => {
-  const [empleadosPorNivel] = useState(() => {
-    const inicial = {};
-    Object.values(grupos)
-      .flat()
-      .forEach((nivel) => {
-        const empleadosNivel = empleadosData.filter((emp) => emp.nivel === nivel);
-        inicial[nivel] = empleadosData.filter((emp) => emp.nivel === nivel);
-      });
+const [empleadosPorNivel] = useState(() => {
+  const inicial = {};
 
-    Object.values(grupos).flat().forEach((nivel) => {
-      if (!inicial[nivel]) inicial[nivel] = [];
-    });
+  // Lista de niveles válidos
+  const nivelesValidos = Object.values(grupos).flat();
 
-
-
-    return inicial;
+  // Inicializa niveles válidos
+  nivelesValidos.forEach((nivel) => {
+    inicial[nivel] = empleadosData.filter((emp) => emp.nivel === nivel);
   });
+
+  return inicial;
+});
+
 
   const totalEmpleados = Object.values(empleadosPorNivel).reduce(
     (acc, lista) => acc + lista.length,
