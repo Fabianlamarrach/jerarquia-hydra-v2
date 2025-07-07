@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import empleadosData from "./empleados.json";
 
 const grupos = {
-  "Sin Rango": ["Sin Rango"],
   Traffickers: ["Trafficker Fase Inicial", "Trafficker Fases Finales"],
+  "Sin Rango": ["Sin Rango"],
   "Jefes de Equipo": [
     "Aspirante Jefe de Equipo",
     "Jefe de Equipo Junior",
